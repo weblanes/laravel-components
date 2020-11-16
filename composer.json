@@ -1,0 +1,22 @@
+{
+    "name": "weblanes/laravel-components",
+    "description": "The package provides components to streamline REST API development in Laravel.",
+    "type": "library",
+    "require": {
+        "php": "^7.2.0|^7.3.0|^7.4.0",
+        "laravel/framework": "^7.0|^8.0",
+        "spatie/laravel-query-builder": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weblanes\\Laravel\\Components\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "has5aan",
+            "email": "has5aan@outlook.com"
+        }
+    ]
+}
