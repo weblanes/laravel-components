@@ -21,5 +21,7 @@ trait SoftDeletesWithFlag
         $model[$this->softDeleteFlag()] = 1;
 
         $model->save();
+
+        return true;
     }
 }
